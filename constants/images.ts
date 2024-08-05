@@ -10,6 +10,7 @@ import expresso from "@/assets/images/expresso.png";
 import havaiano from "@/assets/images/havaiano.png";
 import irlandes from "@/assets/images/irlandes.png";
 import latte from "@/assets/images/latte.png";
+import logo from "@/assets/images/logo.png";
 import macchiato from "@/assets/images/macchiato.png";
 import mochaccino from "@/assets/images/mochaccino.png";
 import scooter from "@/assets/images/scooter.svg";
@@ -30,4 +31,5 @@ export default {
     macchiato,
     mochaccino,
     scooter,
+    logo,
 };
