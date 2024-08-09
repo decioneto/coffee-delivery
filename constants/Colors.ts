@@ -1,5 +1,5 @@
 export const colors = {
-    neltral: {
+    neutral: {
         gray100: "#272221",
         gray200: "#403937",
         gray300: "#574F4D",
