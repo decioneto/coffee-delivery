@@ -4,9 +4,12 @@ import { MagnifyingGlass } from "phosphor-react-native";
 import React, { useState } from "react";
 import { TextInput, View } from "react-native";
 
-type SearchInputType = {};
+type SearchInputType = {
+    onChangeText: (value: string) => void;
+    value: string;
+};
 
-export default function SearchInput() {
+export default function SearchInput({ onChangeText, value }: SearchInputType) {
     const [isFocused, setIsFocused] = useState(false);
 
     return (
@@ -38,6 +41,8 @@ export default function SearchInput() {
                 placeholderTextColor={colors.neutral.gray400}
                 onFocus={() => setIsFocused(true)}
                 onBlur={() => setIsFocused(false)}
+                onChangeText={onChangeText}
+                value={value}
             />
         </View>
     );
