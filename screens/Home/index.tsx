@@ -1,7 +1,8 @@
 import { Header } from "@/components/Header";
-import SearchInput from "@/components/SearchInput";
+import { SearchInput } from "@/components/SearchInput";
 import { colors } from "@/constants/colors";
 import { fonts } from "@/constants/fonts";
+import { TopCoffeeCarousel } from "@/feature/home/TopCoffeeCarousel";
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { ScrollView, Text, View } from "react-native";
@@ -38,7 +39,9 @@ export function HomeScreen() {
                         />
                     </View>
                 </View>
+                <TopCoffeeCarousel />
             </ScrollView>
+
             <StatusBar backgroundColor={colors.neutral.gray100} style="light" />
         </SafeAreaView>
     );

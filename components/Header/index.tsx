@@ -1,6 +1,6 @@
 import { colors } from "@/constants/colors";
 import { fonts } from "@/constants/fonts";
-import { MapPin, ShoppingCart } from "phosphor-react-native";
+import { MapPin, ShoppingCart } from "lucide-react-native";
 import React from "react";
 import { Text, View } from "react-native";
 
@@ -16,7 +16,7 @@ export function Header() {
             }}
         >
             <View style={{ flexDirection: "row", gap: 8 }}>
-                <MapPin size={20} color={colors.purple} weight="fill" />
+                <MapPin size={20} color={colors.purple} />
                 <Text
                     style={{
                         color: colors.neutral.gray900,
@@ -28,11 +28,7 @@ export function Header() {
                 </Text>
             </View>
             <View>
-                <ShoppingCart
-                    size={20}
-                    color={colors.yellowDark}
-                    weight="fill"
-                />
+                <ShoppingCart size={20} color={colors.yellowDark} />
             </View>
         </View>
     );

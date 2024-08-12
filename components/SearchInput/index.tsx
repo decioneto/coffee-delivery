@@ -1,15 +1,15 @@
 import { colors } from "@/constants/colors";
 import { fonts } from "@/constants/fonts";
-import { MagnifyingGlass } from "phosphor-react-native";
+import { Search } from "lucide-react-native";
 import React, { useState } from "react";
 import { TextInput, View } from "react-native";
 
 type SearchInputType = {
-    onChangeText: (value: string) => void;
+    onChangeText?: (value: string) => void;
     value: string;
 };
 
-export default function SearchInput({ onChangeText, value }: SearchInputType) {
+export function SearchInput({ onChangeText, value }: SearchInputType) {
     const [isFocused, setIsFocused] = useState(false);
 
     return (
@@ -25,7 +25,7 @@ export default function SearchInput({ onChangeText, value }: SearchInputType) {
                 borderRadius: 4,
             }}
         >
-            <MagnifyingGlass
+            <Search
                 size={16}
                 color={isFocused ? colors.yellow : colors.neutral.gray400}
             />

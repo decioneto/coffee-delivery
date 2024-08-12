@@ -15,7 +15,7 @@ import macchiato from "@/assets/images/macchiato.png";
 import mochaccino from "@/assets/images/mochaccino.png";
 import scooter from "@/assets/images/scooter.svg";
 
-export default {
+export {
     americano,
     arabe,
     cafeComLeite,
@@ -23,13 +23,13 @@ export default {
     capuccino,
     chocolateQuente,
     cubano,
-    expressoCremoso,
     expresso,
+    expressoCremoso,
     havaiano,
     irlandes,
     latte,
+    logo,
     macchiato,
     mochaccino,
     scooter,
-    logo,
 };
