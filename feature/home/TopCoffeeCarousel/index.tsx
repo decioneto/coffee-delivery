@@ -14,11 +14,12 @@ export function TopCoffeeCarousel() {
             type: "tradicional",
         },
         {
-            title: "Latte",
-            description: "Café expresso com o dobro de leite e espuma cremosa",
-            image: images["latte"],
+            title: "Mocaccino",
+            description:
+                "Café expresso com calda de chocolate, pouco leite e espuma",
+            image: images["mocaccino"],
             price: 990,
-            type: "tradicional",
+            type: "doce",
         },
     ];
     return (

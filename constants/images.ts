@@ -12,7 +12,7 @@ import irlandes from "@/assets/images/irlandes.png";
 import latte from "@/assets/images/latte.png";
 import logo from "@/assets/images/logo.png";
 import macchiato from "@/assets/images/macchiato.png";
-import mochaccino from "@/assets/images/mochaccino.png";
+import mocaccino from "@/assets/images/mochaccino.png";
 import scooter from "@/assets/images/scooter.svg";
 
 export {
@@ -30,6 +30,6 @@ export {
     latte,
     logo,
     macchiato,
-    mochaccino,
+    mocaccino,
     scooter,
 };
