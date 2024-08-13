@@ -36,7 +36,7 @@ export function CoffeeList() {
                     <Tag title="Especiais" />
                 </View>
             </View>
-            <View style={{ marginTop: 24, flex: 1 }}>
+            <View style={{ marginTop: 32, flex: 1 }}>
                 <CoffeeCard item={data[0]} />
             </View>
         </View>
